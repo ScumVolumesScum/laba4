@@ -1,0 +1,38 @@
+*{
+	margin: 5px;
+	padding:5px; 
+}
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.box1{
+	width: 270px; 
+    height: 270px;
+    background: grey;
+}
+.box2{
+	width: 270px; 
+    height: 270px;
+    background: blue;
+}
+.box3{
+	width: 270px; 
+    height: 270px;
+    background: black;  
+}
+@media (orientation:landscape) {
+	.box{
+		flex-direction: row;
+		margin-top: 5px;
+	}
+	
+}
+@media (orientation:portrait) {
+	.box{
+		flex-direction: column;
+		margin-top: 3px;
+	}
+	
+}
